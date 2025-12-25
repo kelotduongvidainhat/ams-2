@@ -1,9 +1,16 @@
 # Fabric Network Artifacts
 network/crypto-config/
 network/channel-artifacts/
+network/organizations/
+network/system-genesis-block/
 *.block
 *.tx
-*.pb.go
+
+# Keystores and Wallets
+wallet/
+keystore/
+*.pem
+*_sk
 
 # Go
 chaincode/vendor/
