@@ -1,0 +1,21 @@
+# Fabric Network Artifacts
+network/crypto-config/
+network/channel-artifacts/
+*.block
+*.tx
+*.pb.go
+
+# Go
+chaincode/vendor/
+chaincode/bin/
+*.exe
+*.test
+go.sum
+
+# System
+.DS_Store
+.idea/
+.vscode/
+
+# Docker
+network/docker/volumes/
